@@ -60,6 +60,7 @@ main section {
 
 main section .Articles {
     flex-direction: column;
+    justify-content: flex-start;
 
     margin: 0;
     padding-top: 30px;
@@ -79,7 +80,12 @@ main section .Articles #img {
     position: relative;
 }
 
-main section .Articles #img span:nth-child(2) {
+main section .Articles #img a {
+    text-decoration: none;
+    color: black;
+}
+
+main section .Articles #img a:nth-child(2) {
     position: absolute;
     top: 10px;
     right: 0;
@@ -163,7 +169,7 @@ main section .Articles #img #box-green {
 footer {
 
     margin-top: 40px;
-    padding: 26px 0;
+    padding: 31px 0;
 
     background-color: #1A1A1A;
     color: white;
@@ -237,4 +243,36 @@ footer #container-footer #social div ul li a .fa {
     color: black;
     background-color: #fff;
 
+}
+
+/* Parte degli Hover */
+
+main section .Articles.one #img img:hover {
+    content: url(/img/1b.webp);
+}
+
+main section .Articles.two #img img:hover {
+    content: url(/img/2b.webp);
+}
+
+main section .Articles.tree #img img:hover {
+    content: url(/img/3b.webp);
+}
+
+main section .Articles.four #img img:hover {
+    content: url(/img/4b.webp);
+}
+
+main section .Articles.five #img img:hover {
+    content: url(/img/5b.webp);
+}
+
+main section .Articles.six #img img:hover {
+    content: url(/img/6b.webp);
+}
+
+/* Hover Cuori */
+
+main section .Articles #img a:nth-child(2):hover {
+    color: red;
 }
