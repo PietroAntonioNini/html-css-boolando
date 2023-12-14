@@ -15,7 +15,8 @@ header nav {
 
     max-width: 950px;
     margin: auto;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 header nav div {
@@ -47,5 +48,28 @@ header nav div img {
 /* Fine Header */
 
 /* Inizio Main */
+main section {
 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    max-width: 950px;
+    margin: auto;
+}
+
+main section .Articles {
+    flex-direction: column;
+
+    margin: 0;
+    padding-top: 30px;
+}
+
+main section .Articles div {
+    max-width: 250px;
+}
+
+main section .Articles div img {
+    width: 330px;
+}
 
