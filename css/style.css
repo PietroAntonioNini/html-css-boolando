@@ -61,6 +61,7 @@ main section {
 main section .Articles {
     flex-direction: column;
 
+    margin: 0;
     padding-top: 30px;
 }
 
@@ -124,6 +125,9 @@ main section .Articles div #brand {
 }
 
 main section .Articles div #name-article {
+
+    margin-bottom: -5px;
+
     font-size: 12px;
     font-weight: bold;
     font-family: sans-serif;
@@ -142,13 +146,6 @@ main section .Articles div #real-price {
     text-decoration: line-through;
 }
 
-
-
-
-
-
-
-
 main section .Articles #img #box-green {
     position: absolute;
     bottom: 50px;
@@ -161,5 +158,83 @@ main section .Articles #img #box-green {
     background-color: #008000;
 }
 
+/* Inizio Footer */
+
+footer {
+
+    margin-top: 40px;
+    padding: 26px 0;
+
+    background-color: #1A1A1A;
+    color: white;
+}
+
+footer #container-footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1020px;
+    margin: auto;
+}
 
 
+/* Info */
+
+footer #container-footer #infobox h2 {
+
+    margin-bottom: 7px;
+
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+
+footer #container-footer #infobox div ul {
+    display: flex;
+    gap: 10px;
+
+    font-family: sans-serif;
+    font-size: 10px;
+    list-style-type: none;
+}
+
+footer #container-footer #infobox div ul li a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+
+/* Social */
+
+footer #container-footer #social h2 {
+    margin-bottom: 7px;
+
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+footer #container-footer #social div ul {
+    display: flex;
+    gap: 10px;
+
+    font-family: sans-serif;
+    font-size: 10px;
+    list-style-type: none;
+}
+
+footer #container-footer #social div ul li a .fa {
+
+    padding: 2px;
+
+    font-size: 10px;
+    text-decoration: none;
+
+    color: black;
+    background-color: #fff;
+
+}
