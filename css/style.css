@@ -5,6 +5,13 @@
 }
 
 header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 1;
+
     background-color: #FF6900
 }
 
@@ -56,6 +63,7 @@ main section {
 
     max-width: 1020px;
     margin: auto;
+    padding-top: 60px;
 }
 
 main section .Articles {
